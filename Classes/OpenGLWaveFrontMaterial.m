@@ -152,7 +152,7 @@
 		self.diffuse = inDiffuse;
 		self.ambient = inAmbient;
 		self.specular = inSpecular;
-		self.shininess = shininess;
+		self.shininess = inShininess;
 		self.texture = inTexture;
 	}
 	return self;
