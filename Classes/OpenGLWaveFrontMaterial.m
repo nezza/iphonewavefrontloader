@@ -85,7 +85,7 @@
 				}
 				else if ([parseLine hasPrefix:@"map_Kd "])
 				{
-					glEnableClientState(GL_TEXTURE);
+					glEnableClientState(GL_TEXTURE_COORD_ARRAY);
 					NSString *texName = [parseLine substringFromIndex:7];
 					NSString *baseName = [[texName componentsSeparatedByString:@"."] objectAtIndex:0];
 					
