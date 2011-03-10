@@ -63,7 +63,8 @@
 				if ([parseLine hasPrefix:@"newmtl "])
 					material.name = [parseLine substringFromIndex:7];
 				else if ([parseLine hasPrefix:@"Ns "])
-					material.shininess = [[parseLine substringFromIndex:3] floatValue];
+					/* Value in file is from 0 - 1000, but OpenGL uses 0 - 128 */
+					material.shininess = ([[parseLine substringFromIndex:3] floatValue]/1000)*128;
 				else if ([parseLine hasPrefix:@"Ka spectral"]) // Ignore, don't want consumed by next else
 				{
 					
