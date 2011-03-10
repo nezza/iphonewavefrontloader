@@ -85,7 +85,8 @@
 				}
 				else if ([parseLine hasPrefix:@"map_Kd "])
 				{
-					glEnableClientState(GL_TEXTURE_COORD_ARRAY);
+					/* TODO: Fixme! http://code.google.com/p/iphonewavefrontloader/issues/detail?id=8 */
+					//glEnableClientState(GL_TEXTURE);
 					NSString *texName = [parseLine substringFromIndex:7];
 					NSString *baseName = [[texName componentsSeparatedByString:@"."] objectAtIndex:0];
 					
