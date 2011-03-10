@@ -31,6 +31,8 @@
 		1FF0216C0EF21FA500761551 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FF0216B0EF21FA500761551 /* MainWindow.xib */; };
 		2D500B940D5A79C200DBA0E3 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D500B920D5A79C200DBA0E3 /* OpenGLES.framework */; };
 		2D500B9A0D5A79CF00DBA0E3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D500B990D5A79CF00DBA0E3 /* QuartzCore.framework */; };
+		F040C72913298A640085398C /* cylinder2.mtl in Resources */ = {isa = PBXBuildFile; fileRef = F040C72713298A640085398C /* cylinder2.mtl */; };
+		F040C72A13298A640085398C /* cylinder2.obj in Resources */ = {isa = PBXBuildFile; fileRef = F040C72813298A640085398C /* cylinder2.obj */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -71,6 +73,8 @@
 		2D500B920D5A79C200DBA0E3 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		2D500B990D5A79CF00DBA0E3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F040C72713298A640085398C /* cylinder2.mtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cylinder2.mtl; sourceTree = "<group>"; };
+		F040C72813298A640085398C /* cylinder2.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cylinder2.obj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 		1F6FE4750EF5CE0E0056D7EB /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				F040C72713298A640085398C /* cylinder2.mtl */,
+				F040C72813298A640085398C /* cylinder2.obj */,
 				1F6F62DB0F0692DF00D8F4EA /* sphere-256.pvr4 */,
 				1F6F62DD0F0692E300D8F4EA /* earth.mtl */,
 				1F6F62DE0F0692E300D8F4EA /* earth.obj */,
@@ -240,6 +246,8 @@
 				1F6F62DC0F0692DF00D8F4EA /* sphere-256.pvr4 in Resources */,
 				1F6F62DF0F0692E300D8F4EA /* earth.mtl in Resources */,
 				1F6F62E00F0692E300D8F4EA /* earth.obj in Resources */,
+				F040C72913298A640085398C /* cylinder2.mtl in Resources */,
+				F040C72A13298A640085398C /* cylinder2.obj in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -100,7 +100,7 @@
 	NSTimeInterval planeEnd = [NSDate timeIntervalSinceReferenceDate];
 	NSLog(@"End Load of Plane at %f", planeEnd);
 	NSLog(@"Duration: %f", planeEnd - planeStart);
-	path = [[NSBundle mainBundle] pathForResource:@"texturedcube" ofType:@"obj"];
+	path = [[NSBundle mainBundle] pathForResource:@"cylinder2" ofType:@"obj"];
 	theObject = [[OpenGLWaveFrontObject alloc] initWithPath:path];
 	position = Vertex3DMake(-1.5, -3.0, -8.0);
 	theObject.currentPosition = position;
