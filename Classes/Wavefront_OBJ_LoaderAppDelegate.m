@@ -19,8 +19,6 @@
 {
 	CGRect	rect = [[UIScreen mainScreen] bounds];
 	
-	window = [[UIWindow alloc] initWithFrame:rect];
-	
 	GLViewController *theController = [[GLViewController alloc] init];
 	self.controller = theController;
 	[theController release];
