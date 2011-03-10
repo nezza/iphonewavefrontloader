@@ -273,7 +273,7 @@ static inline void	processOneVertex(VertexTextureIndex *rootNode, GLuint vertexI
 	// Rotate to the current rotation
 	glRotatef(currentRotation.x, 1.0, 0.0, 0.0);
 	glRotatef(currentRotation.y, 0.0, 1.0, 0.0);
-	glRotatef(currentPosition.z, 0.0, 0.0, 1.0);
+	glRotatef(currentRotation.z, 0.0, 0.0, 1.0);
 	
 	// Enable and load the vertex array
 	glEnableClientState(GL_VERTEX_ARRAY);
