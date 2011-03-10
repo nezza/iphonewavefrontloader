@@ -79,9 +79,9 @@
 	
 	glEnable(GL_LIGHT1);
 	glLightfv(GL_LIGHT1, GL_AMBIENT, lightAmbient);
-	glLightfv(GL_LIGHT2, GL_DIFFUSE, lightDiffuse);
-	glLightfv(GL_LIGHT2, GL_POSITION, light2Position); 
-	glLightfv(GL_LIGHT2, GL_SHININESS, &lightShininess);
+	glLightfv(GL_LIGHT1, GL_DIFFUSE, lightDiffuse);
+	glLightfv(GL_LIGHT1, GL_POSITION, light2Position); 
+	glLightfv(GL_LIGHT1, GL_SHININESS, &lightShininess);
 	
 	glLoadIdentity(); 
 	glClearColor(0.0f, 0.0f, 0.0f, 1.0f); 	
